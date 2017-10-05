@@ -1,6 +1,7 @@
 <!DOCTYPE html lang="en-US">
 <head>
-    <title>My Portfolio</title>
+    <meta charset="utf-8">
+    <title>My Website</title>
     <link rel="stylesheet" href="MyPortfolioStyle.css" />
     <script type="text/javascript" src="external.js"></script>
     <link rel="icon" href="placeholder.png" /> <!-- http://icons.iconarchive.com/icons/graphicloads/100-flat/64/contact-icon.png -->
@@ -9,9 +10,10 @@
 <body>
     <button type="button" onclick="hello()">Hello</button>
     <!-- make default value dissapear on click -->
-    <input type="text" id="msg" placeholder="Enter a greeting..."> 
+    <input type="text" id="msg" placeholder="Enter a greeting..." disabled>
+    <button type="button" onclick="enableMsg()">Toggle text box</button> 
     <h1>Welcome!</h1>
-    <p>This is my portfolio.</p>
+    <a href="https://github.com/johnking205" title="My GitHub page" target="_blank"><p>This is my portfolio.</p></a>
     <img src = "images/karate_cats.jpg">
     <p>My cat is <strong>very</strong> grumpy.</p>
 </body>

@@ -3,3 +3,11 @@ function hello() {
     
     alert(greeting)
 }
+function enableMsg() {
+    if (document.getElementById("msg").disabled) {
+        document.getElementById("msg").removeAttribute("disabled")
+    }
+    else {
+        document.getElementById("msg").setAttribute("disabled", "true")
+    }
+}
