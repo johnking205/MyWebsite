@@ -8,6 +8,12 @@ h1 {
 p, em {
     color: blue;
 }
+p.temp {
+    color: red;
+    border: 3px double black;
+    display: inline-block;
+    padding: 5px;
+}
 strong {
     color: red;
     font-size: 150%;
