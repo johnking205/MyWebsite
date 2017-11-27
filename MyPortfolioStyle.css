@@ -19,3 +19,6 @@ strong {
     font-size: 150%;
     border: 3px double black;
 }
+canvas{
+    border: 1px solid black;
+}
